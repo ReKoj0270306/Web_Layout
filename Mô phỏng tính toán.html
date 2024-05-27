@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style type="text/css">
+        h1 {
+            text-align: center;
+            border: 2px solid LightGreen;
+            padding: 38px
+        }
+
+        .col-md-4 {
+            border: 2px solid lightgreen;
+            min-height: 360px;
+        }
+
+            .col-md-4 p {
+                margin-top: 20px;
+            }
+    </style>
+    <script type="text/JavaScript">
+        function tinhToan(){
+            var d= parseInt(document.getElementById('ChieuDai').value);
+            var r= parseInt(document.getElementById('ChieuRong').value);
+            var c= parseInt(document.getElementById('ChieuCao').value);
+            var cv=2*(d+r);
+            var dt=cv*c;
+            var tien=dt*530000;
+            document.getElementById('kq1').innerHTML = "Với miếng đất " +d.toString() +" x " + r.toString() +" thì diện tích tường cần xây là: " + dt.toString() +" m <sup>2</sup>";
+            document.getElementById('kq2').innerHTML = "Chi phí để xây miếng đất của bạn: " +tien.toString() +" Đ";
+        }
+    </script>
+</head>
+<body class="container">
+    <div class="row">
+        <h1>CHƯƠNG TRÌNH TÍNH CHI PHÍ XÂY TƯỜNG</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p>Bạn có 1 miếng đất và bạn mong muốn xây tường bao quanh miếng đất này.</p>
+            <p>Tuy nhiên bạn không biết phải tốn bao nhiêu chi phí cho việc xây dựng tường bao quanh khu đát của mình là bao nhiêu</p>
+            <p>Đừng lo lắng !. Chương trình của chúng tôi sẽ giúp bạn thực hiện công việc đó một cách nhanh chóng và đơn giản.</p>
+            <p>Hãy nhập các thông số cần thiết vào FORM bên cạnh rồi nhấn vào nút "Tính chi phí", trang web của chúng tôi sẽ thực hiện tính toán giúp bạn</p>
+            <p>Chí phí xây tường tại thời điểm hiện tại có giá <font color="red">530.000 đ</font> trên 1 met vuông</p>
+        </div>
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="ChieuDai">Chiều dài miếng đất</label>
+                <input type="text" class="form-control" id="ChieuDai">
+            </div>
+            <div class="form-group">
+                <label for="ChieuRong">Chiều rộng miếng đất</label>
+                <input type="text" class="form-control" id="ChieuRong">
+            </div>
+            <div class="form-group">
+                <label for="ChieuCao">Chiều cao miếng đất</label>
+                <input type="text" class="form-control" id="ChieuCao">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-success" onclick="tinhToan();">Tính chi phí</button>
+            </div>
+            <div class="form-group">
+                <div class="alert alert-success" id="kq1">
+                </div>
+                <div class="alert alert-success" id="kq2">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

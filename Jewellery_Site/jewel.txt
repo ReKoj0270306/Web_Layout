@@ -1,0 +1,36 @@
+1.....Welcome to Jewellery House
+     Praesent nec lorem. Vivamus ipsum. Proin nibh odio, eleifend id, lacinia mattis, scelerisque non, purus. Praesent a felis eu sapien gravida sagittis. Donec rhoncus, ipsum eu volutpat imperdiet, justo tellus euismod quam, in bibendum tellus ipsum non pede.
+
+2.....Featured Products
+     PENDALS:  Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat.      WEDDING RING: Morbi in orci cursus nibh tristique faucibus. Nulla eget felis
+     EARRING: Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat.
+     NECKLACE: Morbi in orci cursus nibh tristique faucibus. Nulla eget felis 
+     DIAMOND EARRING: Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat. 
+     BRACELET: Morbi in orci cursus nibh tristique faucibus. Nulla eget felis
+    
+3.....New Jewellery Collections
+      PENDALS: Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat. 
+      EARRING: Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat. 
+      BANGALS: Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat. 
+     GOLDEN EARRING: Morbi in orci cursus nibh tristique faucibus. Nulla eget felis
+     BRACELET: Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat. 
+    NECKLACE: Morbi in orci cursus nibh tristique faucibus. Nulla eget felis. 
+   ACCESSORIES: Sed feugiat mauris in dolor. Sed id nibh. Phasellus non erat. 
+   RING:Morbi in orci cursus nibh tristique faucibus. Nulla eget felis. 
+
+4....Categories
+  Body Jewellery
+  Bracelet
+  Earrings
+  Necklace
+  Pendals
+  Naval Rings
+  Jewellery Sets
+  Wedding Rings
+  Accessories
+  Men’s Jewellery
+
+
+
+
+

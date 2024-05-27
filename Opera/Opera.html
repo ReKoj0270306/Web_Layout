@@ -1,0 +1,1206 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Trình duyệt Opera | Nhanh hơn, An toàn hơn, Thông minh hơn | Opera</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StyleCSS/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        img{
+            max-width:100%;
+            max-height:100%;
+        }
+        .row{
+            margin-bottom:100px;
+            width:1194px;
+            margin-left:15px;
+            margin-right:15px;
+        }
+        .navbar-inverse {
+            background-color: white;
+            border: none;
+            margin-top: 6px;
+        }
+        .navbar-inverse .navbar-nav > li > a{
+            color:black;
+        }
+        .navbar-right .btn-primary {
+            background-color: #00249c;
+            margin-right: 28px;
+            width: 120px;
+            height: 38px;
+            margin-top: 5px;
+            padding: 8px;
+        }
+        .navbar-right li a strong{
+            color:white;
+        }
+        #page1 {
+            background-image: url('oprera/h1.webp');
+            background-size: contain;
+            height: 618px;
+            border: 40px solid #5db5c0
+        }
+            #page1 .col-md-6 {
+                margin: 24px 14px;
+                padding: 40px;
+            }
+                #page1 .col-md-6 h1, #page1 .col-md-6 h3{
+                    color: white;
+                }
+                #page1 .col-md-6 h1 {
+                    font-size: 58px;
+                }
+                #page1 .col-md-6 h3{
+                    font-size:20px;
+                }
+            #page1 .btn-primary {
+                width: 190px;
+                height: 54px;
+                background-color: #00249c;
+                padding: 14px;
+                font-size: 18px;
+                margin-top: 30px;
+            }
+            #page1 p {
+                font-size: 16px;
+                margin: 20px 28px;
+                color: white;
+            }
+        #r3 #ball{
+            width: 99px;
+            height: 98px;
+            border-radius: 50%;
+            padding: 0;
+            background-color: #f9a8b4;
+            background-size: contain;
+        }
+            #r3 #ball .ball {
+                margin: 30px 8px;
+                text-align: center;
+                font-size: 16px;
+            }
+            #r3 a{
+                color:white;
+            }
+        #r4 {
+            background-color: #fafafa;
+            font-size: 16px;
+        }
+        #r4 p{
+            margin-bottom:50px;
+        }
+        .r4{
+            margin:16px;
+        }
+        .r4 h6 {
+            color: #004196;
+            font-size:16px;
+        }
+        #r4 a{
+            color:black;
+        }
+        .img {
+            max-width: 80%;
+            max-height: 80%;
+            margin: 0 40px;
+        }
+        .phai{
+            margin:80px 0;
+        }
+        .phai h6 {
+            color: #004196;
+            font-size:16px;
+            margin:28px 0;
+        }
+        .phai h3 a{
+            color:black;
+        }
+        .phai p{
+            margin:28px 0;
+            font-size:17px;
+            padding-right:54px;
+        }
+            .phai .btn-primary {
+                width: 126px;
+                height: 46px;
+                background-color: white;
+                border: 1px solid black;
+                border-radius: 0;
+                color: black;
+                padding: 12px;
+            }
+        .trai {
+            margin: 80px 0;
+        }
+        .trai h6 {
+                color: #004196;
+                font-size: 16px;
+                margin: 28px 0;
+        }
+        .trai h3 a {
+            color: black;
+        }
+
+        .trai p {
+            margin: 28px 0;
+            font-size: 17px;
+            padding-right: 54px;
+        }
+
+        .trai .btn-primary {
+            width: 126px;
+            height: 46px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 0;
+            color: black;
+            padding: 12px;
+        }
+        .r5{
+            text-align:center;
+            font-size:18px;
+            margin-bottom:40px;
+        }
+        .r6 .carousel-inner{
+            width:900px;
+            margin:0 140px;
+        }
+        .r6 #myCarousel{
+            height:220px;
+        }
+        .r6 .carousel-indicators li {
+            background-color: #b1b1b1;
+        }
+        .r6 .carousel-control {
+            background-image:none;
+        }
+        .r6box {
+            display: inline;
+        }
+            .r6box img {
+                float: left;
+                width: 33%;
+                margin-right: 6px;
+            }
+            .r6box h3 {
+                float: left;
+                width: 62%;
+                font-size: 18px;
+                color: black;
+                margin-bottom: 40px;
+                font-weight: bold;
+                margin-top: 10px;
+                height: 24px;
+            }
+            .phai #last{
+                width:210px;
+            }
+        .r9 h5 {
+            color: #004196;
+        }
+        .r9 h1 a{
+            color:black;
+            font-weight:bold;
+        }
+        #r7 {
+            background-color: #fafafa;
+            padding:0;
+        }
+        .box {
+            width: 100%;
+            height: 120px;
+            margin: 20px 0 36px;
+            border: 1px solid #a9a9a9;
+            padding:14px;
+        }
+            .box .next {
+                box-sizing: border-box;
+                border: .1px solid #a9a9a9;
+                border-radius: 50%;
+                height: 32px;
+                width: 32px;
+                float: right;
+                padding: 2px;
+                float: right;
+                padding: 4px 8px;
+                margin-top: 36px;
+            }
+            .box .next a{
+                color:black;
+            }
+        .boxTrai {
+            float: left;
+            padding: 18px;
+            width: 85px;
+            height: 82px;
+        }
+        .boxPhai{
+            float:left;
+        }
+        .boxTren {
+            float: left;
+            margin: 0 20px;
+        }
+        .rating{
+            margin:20px;
+        }
+        .r8{
+            text-align:center;
+            margin:30px 0;
+            
+        }
+            .r8 h6 {
+                color: #004196;
+                font-weight: bold;
+            }
+            .r8 h2 {
+                font-weight: bold;
+            }
+            .r8Duoi h2 a{
+                font-size:26px;
+                color:black;
+                font-weight:bold;
+            }
+        .r8Duoi .btn-primary {
+            width: 156px;
+            height: 46px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 0;
+            color: black;
+            padding: 12px;
+        }
+        #r9 {
+            background-color: #fafafa;
+            padding: 26px 0 0;
+        }
+        #r9 img{
+            height:100%;
+            width:100%;
+            border-radius:50%;
+            
+        }
+        .r13 {
+            width: 100%;
+            height: 150px;
+            padding: 20px;
+            background-color: #fafafa;
+            margin-bottom: 28px;
+        }
+        .lbox {
+            width: 56px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: white;
+            padding: 12px;
+            float:left;
+            margin-top:6px;
+        }
+        .provider-data{
+            margin:8px 12px;
+            float:left;
+        }
+        .provider-name{
+            font-weight:bold;
+        }
+        .provider-date {
+            font-size: 8px;
+            color: #bfbfbf;
+        }
+        .r14 {
+            width: 100%;
+            height: 331px;
+            background-color: #ff8370;
+        }
+            .r14 .col-md-9 {
+                height: 331px;
+                padding: 60px 40px 60px 60px;
+            }
+            .r14 .col-md-9 h1{
+                font-weight:bold;
+                color:white;
+                width:650px;
+            }
+                .r14 .col-md-9 p {
+                    width: 650px;
+                    font-size:18px;
+                    color:white;
+                }
+            .r14 .btn-primary {
+                width: 220px;
+                height: 60px;
+                background-color: #00249c;
+                padding: 16px;
+                font-size: 18px;
+                margin-top: 30px;
+                border-radius:0;
+            }
+            .r14 .col-md-3 {
+                padding: 90px 50px 90px 0;
+            }
+                .r14 .col-md-3 p {
+                    margin: 20px 30px 20px 40px;
+                    font-size: 18px;
+                    color: white;
+                }
+            .footer .tren{
+                float:left;
+                 width:100%;
+                 border-bottom:1px solid gray;
+            }
+                .footer .tren h3 {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            .footer .tren ul{
+                padding-left:0;
+            }
+                .footer .tren ul li {
+                    list-style: none;
+                    margin: 10px 0;
+                }
+                    .footer .tren ul li a{
+                        color:black;
+                        font-size:12px;
+                    }
+                    .footer .duoi {
+                        float: left;
+                        width: 100%;
+                    }
+        .footerTraiTren{
+            border-bottom: 1px solid grey;
+            color:gray;
+        }
+            .footerTraiTren p {
+                width: 270px;
+                font-size: 14px;
+                margin: 0 0 20px;
+            }
+        .footerTraiTren img {
+            width: 132px;
+            height: 47px;
+            margin: 12px 0 28px;
+        }
+        .footerTraiDuoi {
+            margin: 12px 0;
+            color: gray;
+        }
+            .footerTraiDuoi img {
+                width: 22px;
+                height: 22px;
+                margin-right: 12px;
+                margin-bottom: 40px;
+            }
+        .footer .duoi p {
+            float: left;
+            color: gray;
+            font-size:10px;
+            margin:14px 0;
+        }
+        .footer .duoi .navbar-right li select {
+            width: 160px;
+            height: 40px;
+            border-radius: 0;
+            margin: 6px 14px;
+            padding: 6px;
+        }
+        .footer .duoi .navbar-right li p{
+            margin:14px 0;
+            font-size:10px;
+        }
+        #gray{
+            background-color:#fafafa;
+        }
+    </style>
+        </head >
+<body class="container-fluid">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a06775d40b97.svg" /></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="https://www.opera.com/vi/computer" style="background-color: white;color:black;">Các trình duyệt dành cho máy tính</a></li>
+                <li><a href="https://www.opera.com/vi/mobile">Các ứng dụng di động</a></li>
+                <li><a href="https://www.opera.com/vi/features">Tính năng</a></li>
+                <li><a href="https://blogs.opera.com/news">News</a></li>
+                <li><a href="https://www.opera.com/vi/download">Tải Xuống</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="btn btn-primary" style="border-radius: 0;" href="https://www.opera.com/vi/computer/thanks?ni=stable&os=windows"><strong>Tải xuống</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="page1" class="row">
+        <div class="col-md-6">
+            <h1><b><u>M</u>ột trình duyệt cho con người thực sự của bạn</b></h1>
+            <h3>Chúng tôi đã thiết kế Opera để bạn sử dụng cho mục đích cá nhân — bất cứ thứ gì.</h3>
+            <a class="btn btn-primary" href="#"><b>Tải xuống</b></a>
+            <p><b>Điều này miễn phí!</b></p>
+        </div>
+    </div>
+    <div class="row" id="r3">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-10">
+            <img src="oprera/h2.webp" />
+        </div>
+        <div class="col-md-1" id="ball">
+            <div class="ball">
+                <a href="https://www.opera.com/vi/features/pinboards"><b>See what’s new</b></a>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="r4">
+        <div class="r4">
+            <h6>LỢI ÍCH</h6>
+            <h1><b>Đây là một số điều mà bạn sẽ thích về Opera</b></h1>
+        </div>
+        <div class="col-md-3">
+            <a href="https://www.opera.com/vi/case-studies/customize-a-fast-browser-and-do-more-on-the-web">
+
+                <img src="oprera/h3_1.svg" />
+                <h3><b>Duyệt nhanh hơn</b></h3>
+            </a>
+            <p>Chúng tôi sử dụng ít dung tích xử lý hơn các trình duyệt khác và có một trình chặn quảng cáo tích hợp giúp tải các trang web nhanh hơn.</p>
+
+        </div>
+        <div class="col-md-3">
+            <a href="https://www.opera.com/vi/features/free-vpn">
+
+                <img src="oprera/h3_2.svg" />
+                <h3><b>Đảm bảo an toàn cho sự riêng tư của bạn</b></h3>
+            </a>
+            <p>Chúng tôi bảo vệ cho bạn. VPN miễn phí của chúng tôi giảm theo dõi trực tuyến và che chắn việc duyệt web của bạn.</p>
+
+        </div>
+        <div class="col-md-3">
+            <a href="https://www.opera.com/vi/features/messenger">
+
+                <img src="oprera/h3_3.svg" />
+                <h3><b>Giữ liên lạc</b></h3>
+            </a>
+            <p>Trò chuyện và duyệt cùng một lúc với các trình nhắn tin tích hợp bên lề trình duyệt của bạn. Không cần phải chuyển giữa các tab và ứng dụng nữa.</p>
+
+        </div>
+        <div class="col-md-3">
+            <a href="https://www.opera.com/vi/case-studies/customize-a-fast-browser-and-do-more-on-the-web">
+
+                <img src="oprera/h3_4.svg" />
+                <h3><b>Làm những gì bạn thích</b></h3>
+            </a>
+            <p>Tùy chỉnh Opera với các chủ đề tối và sáng, phím tắt bàn phím, các bookmark yêu thích và vô cùng nhiều những tùy chọn khác.</p>
+        </div>
+    </div>
+    <div class="row" >
+        <div class="col-md-6">
+            <div class="img">
+                <img src="oprera/h4.jpg" />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="phai">
+                <h6>VPN MIỄN PHÍ</h6>
+                <h3>
+                    <a href="https://www.opera.com/vi/features/free-vpn"><b>VPN tích hợp để giúp bạn duyệt an toàn</b></a>
+                </h3>
+                <p>Giảm theo dõi trực tuyến và che chắn việc duyệt của bạn khỏi mọi người ngoài bạn. VPN tích hợp của chúng tôi bảo vệ bạn.</p>
+                <a href="https://www.opera.com/vi/features/free-vpn" class="btn btn-primary">Đọc thêm</a>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="gray">
+        <div class="col-md-6">
+            <div class="trai">
+                <h6>ỨNG DỤNG NHẮN TIN</h6>
+                <h3>
+                    <a href="https://www.opera.com/vi/features/messenger"><b>Các trình nhắn tin tích hợp để giúp bạn giữ liên lạc</b></a>
+                </h3>
+                <p>Trò chuyện với bạn bè và duyệt cùng một lúc, mà không cần phải chuyển giữa các tab hay chương trình.</p>
+                <a href="https://www.opera.com/vi/features/messenger" class="btn btn-primary">Đọc thêm</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="img">
+                <img src="oprera/h5.jpg" />
+            </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="img">
+                <img src="oprera/h6.jpg" />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="phai">
+                <h6>CHẶN QUẢNG CÁO</h6>
+                <h3>
+                    <a href="https://www.opera.com/vi/features/ad-blocker"><b>Trình chặn quảng cáo tích hợp để giúp bạn duyệt nhanh hơn</b></a>
+                </h3>
+                <p>Trình chặn quảng cáo tích hợp của chúng tôi loại bỏ những chướng ngại vật quảng cáo trực tuyến. Nó cũng chặn đào tiền kỹ thuật số và giúp các trang tải nhanh hơn. Giống như một ninja trình duyệt vậy.</p>
+                <a href="https://www.opera.com/vi/features/ad-blocker" class="btn btn-primary">Đọc thêm</a>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="gray">
+        <div class="col-md-6">
+            <div class="trai">
+                <h6>CHẾ ĐỘ TỐI</h6>
+                <h3>
+                    <a href="https://www.opera.com/vi/computer#darkmode"><b>Chế độ tối và sáng để giúp bạn làm những gì bạn thích</b></a>
+                </h3>
+                <p>Tùy chỉnh Opera với các chủ đề tối và sáng, phím tắt bàn phím, các bookmark yêu thích của bạn và vô cùng nhiều những tùy chọn khác.</p>
+                <a href="https://www.opera.com/vi/computer#darkmode" class="btn btn-primary">Đọc thêm</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="img">
+                <img src="oprera/h7.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="r5">
+            <h3><b>Khám phá các tính năng của Opera</b></h3>
+            <p>Tìm hiểu về trình duyệt Opera tốt hơn và làm nhiều hơn trên web!</p>
+        </div>
+        <div class="r6">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+                                    <img src="oprera/h8_0.svg" />
+                                    <h3>Player in sidebar</h3>
+                                </div>
+                            </a>
+                            <p>A world of music and podcasts at your fingertips.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+                                    <img src="oprera/h8_1.svg" />
+                                    <h3>Twitter ở thanh bên</h3>
+                                </div>
+                            </a>
+                            <p>Explore and tweet conveniently with a better view on desktop.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_2.svg" />
+                                    <h3>Instagram ở thanh bên</h3>
+                                </div>
+                            </a>
+                            <p>Sử dụng Instagram trong thanh bên của Opera khi bạn duyệt.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_3.svg" />
+                                    <h3>Search in tabs</h3>
+                                </div>
+                            </a>
+                            <p>Work and browse more efficiently with many open tabs.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_4.svg" />
+                                    <h3>Không gian làm việc</h3>
+                                </div>
+                            </a>
+                            <p>Bố trí các nhóm tab vào các không gian làm việc riêng biệt.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_5.svg" />
+                                    <h3>Chặn quảng cáo</h3>
+                                </div>
+                            </a>
+                            <p>Browse with less distractions and load websites faster.</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="item">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_6.svg" />
+                                    <h3>Các trình nhắn tin tích hợp</h3>
+                                </div>
+                            </a>
+                            <p>Chat with friends right in your browser without switching apps.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_7.svg" />
+                                    <h3>Tin tức cá nhân</h3>
+                                </div>
+                            </a>
+                            <p>A customizable and convenient newsfeed on your start page.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_8.svg" />
+                                    <h3>Công cụ chụp màn hình</h3>
+                                </div>
+                            </a>
+                            <p>Easily capture, edit and share your snapshots from webpages.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_9.svg" />
+                                    <h3>Opera Flow</h3>
+                                </div>
+                            </a>
+                            <p>Instantly send files, links and notes between your devices.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_10.svg" />
+                                    <h3>Search in tabs</h3>
+                                </div>
+                            </a>
+                            <p>Work and browse more efficiently with many open tabs.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_11.svg" />
+                                    <h3>Video bật ra</h3>
+                                </div>
+                            </a>
+                            <p>Pop out online videos so they float on top of webpages as you browse.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_12.svg" />
+                                    <h3>Nhập bookmark</h3>
+                                </div>
+                            </a>
+                            <p>Easily manage, customize and keep your favorite places online.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_13.svg" />
+                                    <h3>VPN miễn phí</h3>
+                                </div>
+                            </a>
+                            <p>Browse comfortably with enhanced privacy and security, for free.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_14.svg" />
+                                    <h3>Đồng bộ hóa dữ liệu</h3>
+                                </div>
+                            </a>
+                            <p>Synchronize the Opera browsers on any of your devices.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_15.svg" />
+                                    <h3>Tin tức cá nhân</h3>
+                                </div>
+                            </a>
+                            <p>A customizable and convenient newsfeed on your start page.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_16.svg" />
+                                    <h3>Các File dễ</h3>
+                                </div>
+                            </a>
+                            <p>Attach files in one click without digging through folders.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_17.svg" />
+                                    <h3>Chế độ tiết kiệm pin</h3>
+                                </div>
+                            </a>
+                            <p>An easy way to noticeably extend your laptop’s battery life.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+
+                                    <img src="oprera/h8_18.svg" />
+                                    <h3>Unit converter</h3>
+                                </div>
+                            </a>
+                            <p>Automatically convert time-zones, currencies and units of measurement.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+                                    <img src="oprera/h8_0.svg" />
+                                    <h3>Player in sidebar</h3>
+                                </div>
+                            </a>
+                            <p>A world of music and podcasts at your fingertips.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <div class="r6box">
+                                    <img src="oprera/h8_1.svg" />
+                                    <h3>Twitter ở thanh bên</h3>
+                                </div>
+                            </a>
+                            <p>Explore and tweet conveniently with a better view on desktop.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="trai">
+                <h6>CÁC ỨNG DỤNG DI ĐỘNG</h6>
+                <h3>
+                    <a href="https://www.opera.com/vi/mobile"><b>Duyệt bất cứ nơi đâu</b></a>
+                </h3>
+                <p>Các trình duyệt và ứng dụng di động của Opera nhanh, có nhiều tính năng được đóng gói và cung cấp trải nghiệm web tốt nhất cho Android và iOS.</p>
+                <a href="https://www.opera.com/vi/mobile" class="btn btn-primary">Đọc thêm</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="img">
+                <img src="oprera/h9.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="r7">
+        <div class="col-md-6">
+            <div class="box">
+                <div class="boxTrai">
+                    <img src="oprera/h10_1.png" />
+                </div>
+                <div class="boxPhai">
+                    <div class="boxTren">
+
+                        <a href="https://www.opera.com/vi/mobile/mini">
+                            <h4>Opera Mini</h4>
+                        </a>
+                        <p>Trình duyệt nhẹ & an toàn</p>
+                    </div>
+                    <div class="rating">
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/nuaSao.svg" />
+                    </div>
+                </div>
+                <div class="next">
+                    <a href="https://www.opera.com/vi/mobile/mini">&rarr;</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boxTrai">
+                    <img src="oprera/h10_2.png" />
+                </div>
+                <div class="boxPhai">
+                    <div class="boxTren">
+                        <a href="https://www.opera.com/vi/mobile/touch">
+                            <h4>Opera Touch</h4>
+                        </a>
+                        <p>Trình duyệt nhẹ & nhanh</p>
+                    </div>
+                    <div class="rating">
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img style="opacity: .3;" src="oprera/sao.svg" />
+                    </div>
+                </div>
+                <div class="next">
+                    <a href="https://www.opera.com/vi/mobile/touch">&rarr;</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boxTrai">
+                    <img src="oprera/h10_3.png" />
+                </div>
+                <div class="boxPhai">
+                    <div class="boxTren">
+                        <a href="https://www.opera.com/vi/mobile#news-lite">
+                            <h4>Opera News Lite</h4>
+                        </a>
+                        <p>Ít dữ liệu hơn, nhiều tin tức hơn</p>
+                    </div>
+                    <div class="rating">
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/sao.svg" />
+                        <img src="oprera/nuaSao.svg" />
+                    </div>
+                </div>
+                <div class="next">
+                    <a href="https://www.opera.com/vi/mobile#news-lite">&rarr;</a>
+                </div>
+            </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="boxTrai">
+                            <img src="oprera/h10_4.png" />
+                        </div>
+                        <div class="boxPhai">
+                            <div class="boxTren">
+                                <a href="https://www.opera.com/vi/mobile/opera">
+                                    <h4>Trình duyệt Opera</h4>
+                                </a>
+                                <p>Trình duyệt có VPN miễn phí</p>
+                            </div>
+                            <div class="rating">
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/nuaSao.svg" />
+                            </div>
+                        </div>
+                        <div class="next">
+                            <a href="https://www.opera.com/vi/mobile/opera">&rarr;</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxTrai">
+                            <img src="oprera/h10_5.png" />
+                        </div>
+                        <div class="boxPhai">
+                            <div class="boxTren">
+                                <a href="https://www.opera.com/vi/mobile#news">
+                                    <h4>Opera News</h4>
+                                </a>
+                                <p>Tin tức địa phương & các video theo xu hướng</p>
+                            </div>
+                            <div class="rating">
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/nuaSao.svg" />
+                            </div>
+                        </div>
+                        <div class="next">
+                            <a href="https://www.opera.com/vi/mobile#news">&rarr;</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxTrai">
+                            <img src="oprera/h10_6.svg" />
+                        </div>
+                        <div class="boxPhai">
+                            <div class="boxTren">
+                                <a href="https://www.opera.com/vi/gx">
+                                    <h4>Opera GX</h4>
+                                </a>
+                                <p>The mobile browser for gamers</p>
+                            </div>
+                            <div class="rating">
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/sao.svg" />
+                                <img src="oprera/nuaSao.svg" />
+                            </div>
+                        </div>
+                        <div class="next">
+                            <a href="https://www.opera.com/vi/gx">&rarr;</a>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+    <div class="container-fluid" style="margin-bottom:100px;">
+        <div class="r8">
+            <h6>OPERA BLOGS</h6>
+            <h2>Đọc thêm về duyệt web, cụ thể là với chúng tôi</h2>
+        </div>
+        <div class="r8Duoi">
+            <div class="col-md-6">
+                <img src="oprera/h11_1.jpg" />
+                <h2>
+                    <a href="#">Những bài đăng blog trên desktop mới nhất</a>
+                </h2>
+                <p>Ghé thăm blog của chúng tôi để biết các cập nhật và tin tức mới nhất về các trình duyệt desktop, tính năng của chúng và tương lai của duyệt web. Đọc về Crypto Wallet, Web 3, trình duyệt chơi game Opera GX và những điều mới mẻ sắp tới từ Opera.</p>
+                <a class="btn btn-primary" href="#">Đọc các báo cáo</a>
+            </div>
+            <div class="col-md-6">
+                <img src="oprera/h11_2.jpg" />
+                <h2>
+                    <a href="#">Các bài đăng blog di động mới nhất</a>
+                </h2>
+                <p>Đọc về các trình duyệt di động có thiết kế đoạt giải của chúng tôi, đồng bộ hóa giữa các thiết bị và các cải tiến khác. Nhận các cập nhật và tin tức, và xem những gì đang thực hiện cho các trình duyệt di động tại Opera.</p>
+                <a class="btn btn-primary" href="#">Đọc các báo cáo</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="row" id="r9">
+        <div class="col-md-5">
+            <div class="img">
+                <img src="oprera/h12.jpg" />
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="phai">
+                <div class="r9">
+                    <h5>DIỄN ĐÀN OPERA</h5>
+                    <h1>
+                        <a href="https://forums.opera.com/">Tham gia cộng đồng của Opera</a>
+                    </h1>
+                </div>
+                <p>Chúng tôi luôn vui vẻ khi bạn thích các sản phẩm của chúng tôi và chúng tôi muốn nghe phản hồi về chúng. Với sự giúp đỡ của bạn chúng tôi có thể phát triển và điều chỉnh chúng cho phù hợp với nhu cầu và kỳ vọng của bạn.</p>
+                <a id="last" class="btn btn-primary" href="https://forums.opera.com/">Hãy tham gia với chúng tôi</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="r8">
+            <h6>ĐÁNH GIÁ</h6>
+            <h2>Những điều hay ho mà những người khác nói về chúng tôi</h2>
+        </div>
+        <div class="col-md-6">
+            <div class="r13">
+                <p>“Nhiều người sử dụng các tiện ích mở rộng chặn quảng cáo trong các trình duyệt, nhưng nay Opera đã tiến xa hơn, bằng cách xây dựng tính năng này vào bên trong bản thân trình duyệt.”</p>
+                <div class="r13_1">
+                    <div class="lbox">
+                        <img src="oprera/h13_1.png" />
+                    </div>
+                    <div class="provider-data">
+                        <span class="provider-name">
+                            FORTUNE.COM
+                        </span><br/>
+                        <span class="provider-date">Tháng Ba 10, 2016</span>
+                    </div>
+                </div>
+            </div>
+            <div class="r13">
+                <p>“Có rất nhiều công cụ đồng bộ ngoài kia để chuyển nội dung giữa máy tính và điện thoại, nhưng tôi chưa tìm thấy công cụ nào mà đơn giản và dễ sử dụng như Flow của Opera.”</p>
+                <div class="r13_1">
+                    <div class="lbox">
+                        <img src="oprera/h13_2.png" />
+                        </div>
+                        <div class="provider-data">
+                            <span class="provider-name">ARSTECHNICA</span><br/>
+                            <span class="provider-date">Tháng 5 19, 2019</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-6">
+            <div class="r13">
+                <p>“Opera dường như quyết tâm đóng gói những cải tiến xứng đáng hàng thế hệ vào trong một vài tháng ngắn ngủi, đưa ra thêm một lý do nữa để bạn chuyển trình duyệt: một “chế độ tiết kiệm điện.”</p>
+                <div class="r13_1">
+                    <div class="lbox">
+                        <img src="oprera/h13_3.png" />
+                        </div>
+                        <div class="provider-data">
+                            <span class="provider-name">PC WORLD</span><br/>
+                            <span class="provider-date">Tháng 5 12, 2016</span>
+                        </div>
+                    </div>
+                </div>
+            <div class="r13">
+                <p>“Opera vẫn là một con cá nhỏ bé trong thế giới trình đuyệt nhưng nó có thể có một tác động lớn.”</p>
+                <div class="r13_1">
+                    <div class="lbox">
+                        <img src="oprera/h13_4.png" />
+                        </div>
+                        <div class="provider-data">
+                            <span class="provider-name">THE VERGE</span><br/>
+                            <span class="provider-date">Tháng Tư 21, 2016</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+            <div class="r14">
+                <div class="col-md-9">
+                    <h1>Bạn xứng đáng có một trình duyệt tốt hơn</h1>
+                    <p>Flow, trình chặn quảng cáo và VPN miễn phí - Chỉ một vài trong số nhiều tính năng phải có được tích hợp vào Opera giúp duyệt web nhanh hơn, mượt hơn và không bị quảng cáo làm phiền</p>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-primary">Tải xuống</a>
+                    <p>Điều này miễn phí!</p>
+                </div>
+            </div>
+    </div>
+    <div class="container-fluid" style="background-color: #fafafa;">
+        <div class="footer">
+            <div class="tren">
+                <div class="col-md-8">
+                    <div class="col-md-3">
+                        <h3 ><b>Dịch vụ</b></h3>
+                        <ul>
+                            <li><a href="https://addons.opera.com/en/">Addons</a></li>
+                            <li><a href="https://auth.opera.com/account/login">Tài khoản Opera</a></li>
+                            <li><a href="https://addons.opera.com/en/wallpapers/">Hình nền</a></li>
+                            <li><a href="https://www.opera.com/vi/ads">Opera Ads</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3><b>Trợ giúp</b></h3>
+                        <ul>
+                            <li><a href="https://www.opera.com/vi/help">Trợ giúp & hỗ trợ</a></li>
+                            <li><a href="https://blogs.opera.com/news/">Blog Opera</a></li>
+                            <li><a href="https://forums.opera.com/">Diễn đàn Opera</a></li>
+                            <li><a href="https://dev.opera.com/">Dev.Opera</a></li>
+                            <li><a href="https://help.opera.com/en/faq/">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3><b>Pháp lý</b></h3>
+                        <ul>
+                            <li class="gachchan"><a href="https://security.opera.com/">Bảo mật</a></li>
+                            <li><a href="https://www.opera.com/vi/privacy">Quyền riêng tư</a></li>
+                            <li><a href="https://www.opera.com/vi/privacy/cookies">Cookies policy</a></li>
+                            <li><a href="https://www.opera.com/vi/eula">EULA</a></li>
+                            <li><a href="https://www.opera.com/vi/terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3><b>Công ty</b></h3>
+                        <ul>
+                            <li><a href="https://www.opera.com/vi/about">Giới thiệu về Opera</a></li>
+                            <li><a href="https://www.opera.com/vi/newsroom">Thông tin báo chí</a></li>
+                            <li><a href="https://jobs.opera.com/">Việc làm</a></li>
+                            <li><a href="https://investor.opera.com/">Nhà đầu tư</a></li>
+                            <li><a href="https://www.opera.com/vi/b2b">Trở thành đối tác</a></li>
+                            <li><a href="https://www.opera.com/vi/contact">Liên hệ với chúng tôi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footerTraiTren">
+                        <a href="https://www.opera.com/vi">
+                            <img src="oprera/footer.png" />
+                        </a>
+                        <p>Innovate and inspire, uncover the unexpected, support open standards.</p>
+                    </div>
+                    <div class="footerTraiDuoi">
+                        <p>Tải xuống Opera</p>
+                        <a href="https://www.facebook.com/Opera/">
+                            <img src="oprera/facebook.svg" />
+                        </a>
+                        <a href="https://twitter.com/opera">
+                            <img src="oprera/twitter.svg" />
+                        </a>
+                        <a href="https://www.youtube.com/opera">
+                            <img src="oprera/youtube.svg" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/opera-software">
+                            <img src="oprera/linkedin.svg" />
+                        </a>
+                        <a href="https://www.instagram.com/opera/">
+                            <img src="oprera/instagram.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="duoi">
+                <p>
+                    © 1995-2021 Opera Norway
+                    <br/>
+                    All rights reserved
+                </p>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p>Languge : </p>
+                    </li>
+                    <li>
+                        <select>
+                            <option>English</option>
+                            <option>Vietnamese</option>
+                            <option>Japanese</option>
+                        </select>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+        </html >

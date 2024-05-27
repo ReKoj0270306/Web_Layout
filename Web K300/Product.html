@@ -1,0 +1,729 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="StyleCSS/Product.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script type="text/javascript" src="./Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="./Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="header-top">
+                <a href="./Index.html">
+                    <img src="images/logo.webp" />
+                </a>
+                <ul id="menu-top">
+                    <li>
+                        <a href="https://3hundred.vn/pages/he-thong-cua-hang">HỆ THỐNG CỬA HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="./Contact.html">LIÊN HỆ </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-transform:none;">
+                            Tìm Kiếm
+                            <i class="fas fa-search"></i>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="./Sign.html">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://3hundred.vn/account/login">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-shopping-bag"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="header-nav">
+                <ul class="inline-list">
+                    <li>
+                        <div class="dropdown">
+                            <a href="https://3hundred.vn/collections/clothing" target="_blank" class="dropdown-toggle" data-toggle="dropdown">
+                                MEN
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://3hundred.vn/collections/clothing" target="_blank">NEW ARRIVALS</a></li>
+                                <li><a href="./ListOfProduct.html" target="_blank">T-SHIRTS</a></li>
+                                <li><a href="https://3hundred.vn/collections/sweatshirts" target="_blank">SWEATSHIRTS</a></li>
+                                <li><a href="https://3hundred.vn/collections/hoodies" target="_blank">HOODIES</a></li>
+                                <li><a href="https://3hundred.vn/collections/shirts" target="_blank">SHIRTS</a></li>
+                                <li><a href="https://3hundred.vn/collections/jackets" target="_blank">JACKETS</a></li>
+                                <li><a href="https://3hundred.vn/collections/tank-tops" target="_blank">TANK TOPS</a></li>
+                                <li><a href="https://3hundred.vn/collections/jeans" target="_blank">JEANS</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="https://3hundred.vn/collections/clothingwomen" target="_blank" class="dropdown-toggle" data-toggle="dropdown">
+                                WOMEN
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://3hundred.vn/collections/clothingwomen" target="_blank">NEW ARRIVALS</a></li>
+                                <li><a href="https://3hundred.vn/collections/t-shirts-women" target="_blank">T-SHIRTS</a></li>
+                                <li><a href="https://3hundred.vn/collections/sweatshirts-women" target="_blank">SWEATSHIRTS</a></li>
+                                <li><a href="https://3hundred.vn/collections/hoodies-women" target="_blank">HOODIES</a></li>
+                                <li><a href="https://3hundred.vn/collections/jackets-women" target="_blank">JACKETS</a></li>
+                                <li><a href="https://3hundred.vn/collections/jeans-women" target="_blank">JEANS</a></li>
+                                <li><a href="https://3hundred.vn/collections/pants-women" target="_blank">PANTS</a></li>
+                                <li><a href="https://3hundred.vn/collections/shorts-women" target="_blank">SHORTS</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="https://3hundred.vn/collections/accessories" target="_blank" class="dropdown-toggle" data-toggle="dropdown">
+                                ACCESSORIES
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://3hundred.vn/collections/caps-hats" target="_blank">CAPS & HATS</a></li>
+                                <li><a href="https://3hundred.vn/collections/bags" target="_blank">BAGS</a></li>
+                                <li><a href="https://3hundred.vn/collections/socks" target="_blank">SOCKS</a></li>
+                                <li><a href="https://3hundred.vn/collections/shoelaces" target="_blank">SHOELACES</a></li>
+                                <li><a href="https://3hundred.vn/collections/jewellery" target="_blank">JEWELLERY</a></li>
+                                <li><a href="https://3hundred.vn/collections/belts" target="_blank">BELTS</a></li>
+                                <li><a href="https://3hundred.vn/collections/buffhead" target="_blank">BUFFHEAD</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/k300clothing/">
+                            SHOP INSTAGRAM
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://3hundred.vn/pages/about-us">
+                            ABOUT US
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="row" id="r1">
+        <div class="col-md-6">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/product1.webp" />
+                    </div>
+
+                    <div class="item">
+
+                        <img src="images/product2.webp" />
+                    </div>
+
+                    <div class="item">
+
+                        <img src="images/product3.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product4.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product5.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product6.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product7.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product8.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product9.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product10.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product11.webp" />
+                    </div>
+                    <div class="item">
+
+                        <img src="images/product12.webp" />
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+        <div class="col-md-3">
+                <h2>Exceptional Tee With Distressed In Acid Washed Grey</h2>
+                <h3>270,000₫</h3>
+                <div class="product-info">
+                    <span>Thương hiệu: </span>
+                    <a href="#">Khác</a>
+                    <span>Loại: </span>
+                    <a href="#">Áo Thun</a>
+                    <span>MSP: T2131-L</span>
+                </div>
+                <div class="line"></div>
+               
+                    <div class="size">
+                        <div class="size-text">
+                            <p>SIZE:</p>
+                        </div>
+                        <div class="checkbox">
+                            <div class="box">L</div>
+                            <div class="box">S</div>
+                            <div class="box">M</div>
+                            <div class="box">XL</div>
+                            <div class="boxlarge">XXL</div>
+                            <div class="boxlarge">3XL</div>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <div class="color-text">
+                            <p>Màu sắc:</p>
+                        </div>
+                        <div class="color-check">
+                            <div class="boxlarge">Grey</div>
+                        </div>
+                    </div>
+                    <div class="slbox">
+                        <button>
+                            <span class="glyphicon glyphicon-minus"></span>
+                        </button>
+                        <input type="text"/>
+                        <button>
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                    <div class="add">
+                        <a href="#" class="btn btn-default">
+                            <i class="fa fa-heart"></i>
+                            Thêm vào yêu thích
+                        </a>
+                    </div>
+                    <div class="but" id="add">
+                        <a href="#" class="btn btn-default">Thêm vào giỏ</a>
+                    </div>
+                    <div class="but" id="buy">
+                        <a href="#" class="btn btn-default">Mua ngay</a>
+                    </div>
+                    <div class="line"></div>
+                    <div class="like">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-thumbs-up"></i>
+                            thích 0
+                        </a>
+                    </div>
+                    <div class="share">
+                        <a href="#" class="btn btn-primary">
+                            chia sẻ
+                        </a>
+                    </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+        <button class="chitiet">
+            <span>Chi tiết sản phẩm</span>
+        </button>
+        <div class="container-fluid" id="board">
+            <div class="container" id="info-board">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <b>THÔNG TIN</b> <br />
+                                Cổ Tròn
+                                Tay Ngắn
+                                Vạt Ngang
+                                Hình Phía Trước
+                                Và Sau
+                                Stone Wash
+                            </td>
+                            <td>
+                                <b>THƯƠNG HIỆU</b><br />
+                                Từ đầu năm 2016, THE K300 bắt đầu cho ra những sản phẩm made in Vietnam mang xu
+                                hướng mới mẻ cùng chất lượng tốt nhất và được bán trên toàn quốc.
+                                <br />
+                                <br />
+                                Các sản phẩm của THE K300 hầu như được lấy cảm hứng từ văn hóa thời trang đường
+                                phố, tự do hoặc mang hơi hướng retro.
+
+                            </td>
+                            <td>
+                                <b>MODEL & SIZE</b><br />
+                                Model's: 50kg/ 172cm
+
+                                Size: L
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>CHẤT LIỆU</b><br />
+                                100% Cotton
+                            </td>
+                            <td></td>
+                            <td>
+                                <b>MÃ SẢN PHẨM</b><br />
+                                T2131
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+    <div class="row" id="r4">
+        <h1>SẢN PHẨM LIÊN QUAN</h1>
+        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="col-md-4">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-black">
+                                    <img class="item-thumb" src="images/hinh5_4.webp" />
+
+                                    <img class="hover-Swap" src="images/hover4.jpg" />
+                                </a>
+                            </div>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/fucking-awesome-tee-in-black">
+                                        Fucking Awesome Tee In Black
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: T2127-L</span>
+
+                                <span class="price">259,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/three-hundred-embossed-big-logo-tee-in-white">
+                                <img class="item-thumb" src="images/hinh5_7.webp" />
+
+                                <img class="hover-Swap" src="images/hover7.jpg" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/three-hundred-embossed-big-logo-tee-in-white">
+                                        Three Hundred Embossed Big Logo Tee In White
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: T2124-L</span>
+
+                                <span class="price">210,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/fucking-awesome-tee-in-white">
+                                <img class="item-thumb" src="images/hinh5_3.webp" />
+
+                                <img class="hover-Swap" src="images/hover3.jpg" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/fucking-awesome-tee-in-white">
+                                        Fucking Awesome Tee In White
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: T2128-L</span>
+
+                                <span class="price">259,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/three-hundred-bandana-tee-in-acid-washed-grey">
+                                <img class="item-thumb" src="images/hinh5_11.webp" />
+
+                                <img class="hover-Swap" src="images/hover11.jpg" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/three-hundred-bandana-tee-in-acid-washed-grey">
+                                        Three Hundred Bandana Tee In Acid Washed Grey
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: T2120-L</span>
+
+                                <span class="price">290,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/the-sun-tie-dye-pink-tee">
+                                <img class="item-thumb" src="images/hinh5_12.webp" />
+
+                                <img class="hover-Swap" src="images/hover12.jpg" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/the-sun-tie-dye-pink-tee">
+                                        The Sun Tie Dye Pink Tee
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: T2119-L</span>
+
+                                <span class="price">280,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/three-hundred-reflective-tee-in-acid-washed-grey">
+                                <img class="item-thumb" src="images/hinh5_19.webp" />
+
+                                <img class="hover-Swap" src="images/hover19.jpg" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/three-hundred-reflective-tee-in-acid-washed-grey">
+                                        Three Hundred Reflective Tee In Acid Washed Grey
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: T2112-L</span>
+
+                                <span class="price">280,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/champion-graphic-big-logo-t-shirt-in-white">
+                                <img class="item-thumb" src="images/hinh5_23.webp" />
+
+                                <img class="hover-Swap" src="images/hover23.jpg" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/champion-graphic-big-logo-t-shirt-in-white">
+                                        TChampion Graphic Big Logo T-Shirt In White
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: AT533-L</span>
+
+                                <span class="price">149,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/champion-graphic-logo-t-shirt-in-black">
+                                <img class="item-thumb" src="images/hinh5_25.webp" />
+
+                                <img class="hover-Swap" src="images/hover25.jpg" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/champion-graphic-logo-t-shirt-in-black">
+                                        Champion Graphic Logo T-Shirt In Black
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: AT532-L</span>
+
+                                <span class="price">149,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <a href="https://3hundred.vn/products/champion-graphic-logo-t-shirt-in-tan">
+                                <img class="item-thumb" src="images/hinh5_26.webp" />
+
+                                <img class="hover-Swap" src="images/hover26.webp" />
+                            </a>
+                            <div class="product-details">
+                                <h5>
+                                    <a href="https://3hundred.vn/products/champion-graphic-logo-t-shirt-in-tan">
+                                        Champion Graphic Logo T-Shirt In Tan
+                                    </a>
+                                </h5>
+                                <span>Mã sản phẩm: AT531-L</span>
+
+                                <span class="price">149,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+        </div>
+    <div class="row" id="r5">
+            <h1>SẢN PHẨM ĐÃ XEM</h1>
+            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="col-md-3">
+                            <div class="product-item">
+                                <div class="product-img">
+                                    <a href="https://3hundred.vn/products/exceptional-tee-with-distressed-in-acid-washed-grey">
+                                        <img class="item-thumb" src="images/hinh5_1.webp" />
+
+                                        <img class="hover-Swap" src="images/hover1.jpg" />
+                                    </a>
+                                </div>
+                                <a href="https://3hundred.vn/products/exceptional-tee-with-distressed-in-acid-washed-grey">
+                                    <p>Exceptional Tee With Distressed In Acid Washed Grey</p>
+                                </a>
+                                <span>Mã sản phẩm: T2131-L</span>
+
+                                <span class="price">270,000₫</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/three-hundred-tee-in-acid-washed-dark-grey">
+                                    <img class="item-thumb" src="images/hinh5_2.webp" />
+
+                                    <img class="hover-Swap" src="images/hover2.jpg" />
+                                </a>
+                                <a href="https://3hundred.vn/products/three-hundred-tee-in-acid-washed-dark-grey">
+                                    <p>Three Hundred Tee In Acid Washed Dark Grey</p>
+                                </a>
+                                <span>Mã sản phẩm: T2130-L</span>
+
+                                <span class="price">240,000₫</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-white">
+                                    <img class="item-thumb" src="images/hinh5_3.webp" />
+
+                                    <img class="hover-Swap" src="images/hover3.jpg" />
+                                </a>
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-white">
+                                    <p>Fucking Awesome Tee In White</p>
+                                </a>
+                                <span>Mã sản phẩm: T2128-L</span>
+
+                                <span class="price">259,000₫</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-black">
+                                    <img class="item-thumb" src="images/hinh5_4.webp" />
+
+                                    <img class="hover-Swap" src="images/hover4.jpg" />
+                                </a>
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-black">
+                                    <p>Fucking Awesome Tee In Black</p>
+                                </a>
+                                <span>Mã sản phẩm: T2127-L</span>
+
+                                <span class="price">259,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-3">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/three-hundred-tee-in-acid-washed-dark-grey">
+                                    <img class="item-thumb" src="images/hinh5_2.webp" />
+
+                                    <img class="hover-Swap" src="images/hover2.jpg" />
+                                </a>
+                                <a href="https://3hundred.vn/products/three-hundred-tee-in-acid-washed-dark-grey">
+                                    <p>Three Hundred Tee In Acid Washed Dark Grey</p>
+                                </a>
+                                <span>Mã sản phẩm: T2130-L</span>
+
+                                <span class="price">240,000₫</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-white">
+                                    <img class="item-thumb" src="images/hinh5_3.webp" />
+
+                                    <img class="hover-Swap" src="images/hover3.jpg" />
+                                </a>
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-white">
+                                    <p>Fucking Awesome Tee In White</p>
+                                </a>
+                                <span>Mã sản phẩm: T2128-L</span>
+
+                                <span class="price">259,000₫</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-black">
+                                    <img class="item-thumb" src="images/hinh5_4.webp" />
+
+                                    <img class="hover-Swap" src="images/hover4.jpg" />
+                                </a>
+                                <a href="https://3hundred.vn/products/fucking-awesome-tee-in-black">
+                                    <p>Fucking Awesome Tee In Black</p>
+                                </a>
+                                <span>Mã sản phẩm: T2127-L</span>
+
+                                <span class="price">259,000₫</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-img">
+                                <a href="https://3hundred.vn/products/three-hundred-embossed-big-logo-tee-in-black">
+                                    <img class="item-thumb" src="images/hinh5_8.webp" />
+
+                                    <img class="hover-Swap" src="images/hover8.jpg" />
+                                </a>
+                                <a href="https://3hundred.vn/products/three-hundred-embossed-big-logo-tee-in-black">
+                                    <p>Three Hundred Embossed Big Logo Tee In Black</p>
+                                </a>
+                                <span>Mã sản phẩm: T2123-L</span>
+
+                                <span class="price">210,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                </div>
+                <div class="footer">
+                    <div class="col-md-8">
+                        <div class="col-md-5">
+                            <img id="ft-logo" src="images/ft-logo.webp" />
+                            <p>
+                                <i class="fas fa-home"></i> &nbsp; 214E (214/1 Số Cũ) Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1, TP.HCM
+                            </p>
+                            <p>
+                                <i class="fas fa-phone-alt"></i> &nbsp; +84903078300
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i> &nbsp; threehundred.official@gmail.com
+                            </p>
+                            <img id="logo-bct" src="images/logo-bct.webp" />
+                        </div>
+                        <div class="col-md-7">
+                            <div class="col-md-6">
+                                <h3>
+                                    Hỗ Trợ Khách Hàng
+                                </h3>
+                                <ul class="footer-nav">
+                                    <li><a href="https://3hundred.vn/pages/huong-dan-mua-hang">Hướng Dẫn Mua Hàng</a></li>
+                                    <li><a href="https://3hundred.vn/pages/huong-dan-doi-hang">Hướng Dẫn Đổi Hàng</a></li>
+                                    <li><a href="https://3hundred.vn/pages/cau-hoi-thuong-gap">Câu Hỏi Thường Gặp</a></li>
+                                    <li><a href="https://3hundred.vn/pages/delivery">Vận Chuyển Giao Hàng</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>
+                                    Thông Tin & Dịch Vụ
+                                </h3>
+                                <ul class="footer-nav">
+                                    <li><a href="https://3hundred.vn/pages/about-us">Về Chúng Tôi</a></li>
+                                    <li><a href="https://3hundred.vn/pages/careers-at-three-hundred">Tuyển Dụng</a></li>
+                                    <li><a href="https://3hundred.vn/pages/chinh-sach-bao-hanh">Chính Sách Bảo Hành</a></li>
+                                    <li><a href="https://3hundred.vn/pages/chinh-sach-bao-mat">Chính Sách Bảo Mật</a></li>
+                                    <li><a href="https://3hundred.vn/pages/dieu-khoan-va-dieu-kien">Điều Khoản Và Điều Kiện</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="right-footer">
+                            <h4>Follow us</h4>
+                            <div class="fb-ins">
+                                <a href="https://www.facebook.com/k300shop/">
+
+                                    <img id="fb" src="images/facebook.svg" />
+                                </a>
+                                <a href="https://www.instagram.com/k300clothing/"><img id="ins" src="images/instagram.svg" /></a>
+                            </div>
+                        </div>
+
+                        <div id="b-right-footer" class="form-group">
+                            <h4>ĐĂNG KÝ NHẬN THÔNG TIN MỚI TỪ THREE HUNDRED</h4>
+                            <div class="form-footer">
+                                <label class="form-left">
+                                    <input type="text" placeholder="Nhập email của bạn vào đây" class="form-control" />
+                                </label>
+                                <label class="form-right">
+                                    <input type="submit" value="ĐĂNG KÝ" class="form-control" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="end">Copyrights © 2019 by Three Hundred Official. Powered by THE K300</div>
+                </div>
+</body>
+</html>
